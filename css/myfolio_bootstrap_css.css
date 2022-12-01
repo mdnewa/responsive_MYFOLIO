@@ -1,0 +1,230 @@
+/* common css codes end */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,small,ol,ul,button{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.section_info h1{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+    padding-bottom: 50px;
+}
+.section_info .cprg{
+    padding: 10px 0;
+}
+/* common css codes end */
+/* nav css codes end */
+#my_nav{
+    background-color: #02918c;
+}
+#my_nav ul li a{
+    color: #fff;
+    font-size:12px;
+    font-weight:800;
+    padding: 26px 25px;
+    text-transform: uppercase;
+}
+#my_nav ul li:hover a{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/* nav css codes end */
+/* banner css codes end */
+#banner{
+    background:url(../img/MYFOLIO9.jpg);
+    height:726px ;
+    background-size:cover ;
+    background-position:center ; 
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    inset: 0;
+    opacity: 60%;
+    z-index: -1;
+}
+#banner .container .content h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner .container .content h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 26px;
+    word-spacing: 20px;
+}
+#banner .container .content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner .container .content a{
+    font-size: 14px;
+    font-weight: 800;
+    color:#0b1016;
+    text-transform:uppercase;
+    padding-right:40px;
+    padding-left:43px;
+    padding-top:14px;
+    padding-bottom:19px;
+    background-color: #cfc91d;
+}
+#banner .container .content img{
+    display: block;
+    margin: 50px auto;
+}
+/* banner css codes end */
+/* about me css codes end */
+#about{
+    padding: 85px 0;
+}
+#about .container .about_row_2{
+    margin-top: 85px;
+}
+#about .container .section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .container .section_item{
+    border-right: 1px solid #7e8287;
+    padding: 30px 50px;
+}
+#about .section_item h3{
+    margin: 26px 0;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#about .section_item p{
+    color: #7e8287;
+    font-size: 11px;
+}
+#about .container .section_item:last-child{
+    border: none;
+}
+/* about me css codes end */
+/* service css codes end */
+#service{
+    background:url(../img/MYFOLIO21.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding: 67px 0;
+}
+#service .section_item h3{
+    margin: 26px 0;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#service .section_item p{
+    color: #7e8287;
+    font-size: 11px;
+    margin-bottom: 50px;
+}
+/* service css codes end */
+/* my work css codes end */
+#mywork{
+    padding: 50px 0;
+}
+#mywork .row .section_item{
+    position: relative;
+}
+#mywork .row img{
+    width: 100%;
+}
+#mywork .row .section_item .overlay{
+    position: absolute;
+    background-color: rgba(14,131,127,0.85);
+    inset: 20px;
+    text-align: center;
+    transform: scale(0);
+    transition: 0.4s;
+    transform-origin: left;
+    justify-content: center;
+    align-items: center;
+}
+#mywork .row .section_item:hover .overlay{
+    transform: scale(1);
+}
+#mywork .row .section_item .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+#mywork .row .section_item .overlay p{
+    font-size: 13px;
+    color: #fff;
+}
+/* my work css codes end */
+/* contact css codes end */
+#contact{
+    padding-top: 50px 0;
+}
+#contact .contact_form{
+    background-color: #0a0a0b;
+    padding: 50px 0;
+}
+#contact .contact_form input,textarea{
+    background: none;
+    padding: 18px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #898989;
+    text-align: center;
+    color: #fff;
+}
+#contact .contact_form textarea{
+    resize: none;
+}
+#contact .contact_form input:focus,
+#contact .contact_form textarea:focus{
+    outline: 0;
+    border-color: #02918c;
+}
+#contact .contact_form input::placeholder{
+    color: #7e8287;
+    text-transform: uppercase;
+}
+#contact .contact_form textarea::placeholder{
+    color: #7e8287;
+    text-transform: uppercase;
+}
+#contact .contact_form .contact_btn button{
+    background-color: #cfc91d;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+/* contact css codes end */
+/* footer css codes end */
+#footer{
+    background-color: #000;
+}
+#footer p{
+    color: #7e8287;
+    font-size: 14px;
+}
+/* footer css codes end */
